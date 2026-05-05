@@ -5,8 +5,7 @@ from diagrams.aws.integration import Eventbridge, SQS
 from diagrams.aws.network import APIGateway
 from diagrams.aws.general import User
 
-with Diagram("AWS Microservices - Event Driven Architecture", show=True):
-
+with Diagram("AWS Microservices - Event Driven Architecture", show=False):
     user = User("User")
 
     api = APIGateway("API Gateway")
